@@ -208,7 +208,7 @@ class Fix():
         self.setStarFile.close()
         return starsFilePath
     
-    
+    # quote from GitHub
     def getGHA(self,ang):
         methodName = "getGHA: "
         # find the angular displacement of the stars relative to Aries 
@@ -240,7 +240,7 @@ class Fix():
         return(geoPosLatitude , geoPosLongitude)
         
         
-        
+     ## quote from GitHub   
     def getStarsFile(self):
 #        methodName = "getStarsFile: "
         
