@@ -157,7 +157,7 @@ class Fix():
 
   
                 #-------
-                distanceAdjustmentFloat = 60*(math.degrees(correctedAltitude) - adjustedAltitudeDegree)
+                distanceAdjustmentFloat = 60*(adjustedAltitudeDegree － math.degrees(correctedAltitude) )
                 distanceAdjustmentInteger = round(distanceAdjustmentFloat)
                 print "distance adjustment (before round): "+str(distanceAdjustmentFloat), "*"*30 , "distance"
                 print "distance adjustment: "+str(distanceAdjustmentInteger), "*"*30 , "distance"
